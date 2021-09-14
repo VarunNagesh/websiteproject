@@ -1,4 +1,4 @@
-FROM Ubuntu:18.4 
+FROM ubuntu:18.4 
 RUN apt-get update 
 RUN apt-get install –y apache2
 RUN service start apache2
